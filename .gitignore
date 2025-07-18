@@ -24,6 +24,9 @@ contrib/terraform/aws/credentials.tfvars
 vagrant/
 plugins/mitogen
 
+# Venv
+.kubespray-venv/*
+
 # Ansible inventory
 inventory/*
 !inventory/local
