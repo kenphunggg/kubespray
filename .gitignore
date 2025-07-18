@@ -25,7 +25,7 @@ vagrant/
 plugins/mitogen
 
 # Venv
-.kubespray-venv/
+kubespray-venv/
 
 # Ansible inventory
 inventory/*
