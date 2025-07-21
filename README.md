@@ -52,6 +52,6 @@ cp -rfp inventory/sample inventory/mycluster
 
 # Install the cluster
 # Make sure you have access to all nodes within cluster using ssh keys before executing following command 
-ansible-playbook -i inventory/mycluster/iventory.ini cluster.yml -b -v \
+ansible-playbook -i inventory/mycluster/inventory.ini cluster.yml -b -v \
   --private-key=~/.ssh/id_rsa -K
 ```
